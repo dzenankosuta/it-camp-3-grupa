@@ -1,0 +1,49 @@
+/* CSS BOX model je box koji okruzuje svaki HTML ELEMENT. */
+body {
+  /* margin: 0; */
+  background-color: #5f9ea0;
+}
+
+.main {
+  /* background-color: rgb(255, 229, 126); */
+  background-color: rgba(255, 210, 30, 0.4);
+  /* Opacity svojsto daje prozirnost nasel elementu. */
+  /* opacity: 0.5; */
+  width: 500px;
+  height: 400px;
+  /* Definisanje margine za sve strane */
+  /* margin: 100px; */
+  /* Definisanje margine za svaku stranu posebno. */
+  /* margin-top: 100px; */
+  /* margin-right: 100px; */
+  /* margin-bottom: 50px; */
+  /* margin-left: 100px; */
+  /* Definisanje preko margin, gde dodeljujemo vise vrednosti */
+  /* prva vrednost je margin-top,
+    druga margin-right,
+    treca margin-bottom,
+    cetvrta margin-left*/
+  /* margin: 50px 100px 60px 40px; */
+  /* prva vrednost je margin-top i margin-bottom,
+    druga za margin-right i margin-left */
+  /* margin: 60px 90px; */
+  /* margin: 60px 90px 120px; */
+  /*margin: auto;  centriranje elementa */
+  /* margin: 40px auto; */
+  /* margin: auto; */
+  /* margin-top: 60px; */
+  margin: 60px auto 0px;
+  border: 3px solid red;
+  border-radius: 20px;
+  /* border: 3px double red; */
+  /* border: 3px dotted red; */
+  /* border: 3px dashed red; */
+  /* border: 3px outset #ccc; */
+  /* Pravila za padding su ista kao za margin. */
+  padding: 15px 30px;
+}
+
+.main p:nth-of-type(2):hover {
+  font-size: 24px;
+  background-color: rgb(255, 223, 223);
+}
