@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  /* float: left; */
+}
+
+.box1 {
+  background-color: rgba(165, 42, 42, 0.6);
+  float: left;
+}
+.box2 {
+  background-color: #3900d6;
+  float: left;
+}
+.box3 {
+  background-color: #00c41a;
+  float: left;
+}
+.box4 {
+  clear: both;
+  background-color: #7e4a4a;
+  float: left;
+}
+.box5 {
+  background-color: #e4ff6a;
+}
+.box6 {
+  background-color: #a473ba;
+}
+.box7 {
+  background-color: #ffca2c;
+}
+
+p {
+  clear: both;
+}
