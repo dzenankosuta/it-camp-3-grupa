@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Shadows+Into+Light&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Shadows Into Light", cursive;
+}
+.header {
+  width: 100vw;
+  height: 15vh;
+  background-color: #7fffd4;
+  position: relative;
+}
+.header img {
+  width: 5vw;
+  height: 10vh;
+  float: left;
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+}
+
+.links {
+  float: right;
+  position: absolute;
+  top: 35px;
+  right: 50px;
+}
+
+a {
+  font-size: 22px;
+  margin: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #6495ed;
+  text-decoration: none;
+  color: #11115d;
+}
+
+a:hover {
+  background-color: #0c1525;
+  color: #5cbdfa;
+}
+/* a:visited {
+  color: #a10000;
+} */
+
+a:active {
+  color: #fdfdfd;
+}
+
+button {
+  background-color: #11115d;
+  color: #7fffd4;
+  padding: 12px;
+  border: 1px solid #4a6c61;
+  border-radius: 6px;
+  cursor: pointer;
+  /* cursor: text; */
+  /* cursor: default; */
+}
+
+p {
+  font-size: larger;
+  word-spacing: 30px;
+  letter-spacing: 2px;
+  line-height: 35px;
+}
+.picon {
+  text-align: center;
+}
+
+#icon {
+  color: #ff0000;
+  background-color: #7fffd4;
+  padding: 15px;
+  border-radius: 50%;
+}
