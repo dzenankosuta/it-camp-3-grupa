@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Abel", sans-serif;
+}
+header {
+  height: 15vh;
+  position: relative;
+  border-bottom: 2px solid grey;
+}
+header img {
+  width: 200px;
+  height: 100px;
+  margin: 10px 40px 20px 20px;
+}
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  margin-left: 20px;
+}
+header input {
+  width: 700px;
+  height: 50px;
+  border-radius: 30px;
+  padding-left: 40px;
+  margin: 0px 60px;
+}
+header div {
+  display: inline-block;
+  margin-left: 60px;
+}
+.icon {
+  font-size: 40px;
+  margin-left: 40px;
+}
+header a,
+header input,
+header div {
+  position: relative;
+  bottom: 50px;
+}
+.lupa {
+  position: absolute;
+  font-size: 24px;
+  bottom: 50px;
+  left: 455px;
+  z-index: 10;
+  opacity: 0.6;
+}
+.main {
+  background-color: #f2f3f5;
+  width: 70%;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+.main-text {
+  float: left;
+  background-color: white;
+  height: 170px;
+  width: 500px;
+  margin-left: 70px;
+  margin-top: 150px;
+  font-size: 25px;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.img {
+  position: absolute;
+  left: 630px;
+  bottom: 0px;
+}
+.cards-main {
+  clear: both;
+  width: 70%;
+  margin: auto;
+}
+.card {
+  clear: both;
+  display: inline-block;
+  width: 33%;
+  height: 200px;
+  background-color: #f2f3f5;
+  font-size: 14px;
+  color: #000000;
+  overflow: auto;
+}
+.naslov {
+  margin: 30px;
+  margin-left: 15%;
+}
