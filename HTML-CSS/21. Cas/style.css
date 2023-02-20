@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Merienda", cursive;
+}
+
+.parent {
+  margin: auto;
+  width: 60%;
+  background-color: #5f9ea0;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  /* Horizontalno poravnanje:- */
+  /* align-items: center; */
+  align-items: flex-end;
+
+  /* Vertikalno poravnanje: */
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+.box {
+  width: 150px;
+  height: 120px;
+}
+
+.first {
+  background-color: #deb887;
+}
+.second {
+  background-color: #ff5162;
+}
+.third {
+  background-color: #3dff2b;
+}
