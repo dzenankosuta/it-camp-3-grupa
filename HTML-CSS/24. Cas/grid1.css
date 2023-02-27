@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  margin: auto;
+  width: 800px;
+  /* height: 1000px; */
+  background-color: #b4ffe6;
+  display: grid;
+  /* Sledece svojstvo nam definise koliko cemo imati kolona i kojih sirina. */
+  /* grid-template-columns: 200px 150px; */
+  /* grid-template-columns: 1fr 1fr 2fr; */
+  grid-template-columns: repeat(3, 200px);
+
+  /* Sledece svojstvo nam definise koliko cemo imati redova i kojih visina. */
+  /* grid-template-rows: 200px 150px; */
+  /* grid-auto-rows: 180px; */
+  /* minmax() funkcija zahteva 2 argumenta, gde prvi predstavlja minimalnu visinu, a drugi maksimalnu visinu reda (u slucaju potrebe za povecanjem). */
+  grid-auto-rows: minmax(180px, auto);
+
+  /* Razmak izmedju redova: */
+  /* grid-row-gap: 15px; */
+
+  /* Razmak izmedju kolona: */
+  /* grid-column-gap: 25px; */
+
+  /* Razmak izmedju redova i kolona: */
+  grid-gap: 20px;
+
+  grid-template-areas:
+    "header header right"
+    "prvi drugi treci"
+    "cetvrti peti treci";
+}
+
+/* .child { */
+/* width: 150px; */
+/* height: 150px; */
+/* } */
+
+.first {
+  background-color: #ffe4c4;
+  grid-area: header;
+}
+.second {
+  background-color: #78ff87;
+  grid-area: right;
+}
+.third {
+  background-color: #186191;
+  grid-area: prvi;
+}
+.fourth {
+  background-color: #ff9f2a;
+  grid-area: drugi;
+}
+.fifth {
+  background-color: #f7fe33;
+  grid-area: treci;
+}
+.sixth {
+  background-color: #a07e92;
+  grid-area: cetvrti;
+}
+.seventh {
+  background-color: #5e4d39;
+  grid-area: peti;
+}
