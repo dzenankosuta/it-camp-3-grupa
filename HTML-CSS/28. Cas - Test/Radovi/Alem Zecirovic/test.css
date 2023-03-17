@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 10vh;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: #ffffff;
+  align-items: center;
+
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.header h1 {
+  color: #5777ba;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+.links a {
+  text-decoration: none;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: #47536e;
+}
+
+.links button {
+  justify-content: flex-end;
+
+  width: 100px;
+  height: 35px;
+  border-radius: 40px;
+  background-color: #5777ba;
+  color: #ffffff;
+  border: none;
+}
+
+.main {
+  min-height: 75vh;
+  display: flex;
+  margin-top: 40px;
+  padding: 50px;
+}
+
+.main img {
+  padding: 30px;
+  width: 450px;
+  height: 50vh;
+}
+
+.maintxt h1 {
+  color: #47536e;
+}
+
+.maintxt p {
+  color: #585a61;
+  font-style: italic;
+}
+.mainp a {
+  text-decoration: none;
+  background-color: #0841bc;
+  color: #ffffff;
+}
+.mainp i {
+  color: #5777ba;
+}
+.mainp {
+  padding: 20px;
+}
+
+.mainp p {
+  font-style: normal;
+}
+
+footer {
+  padding: 20px;
+  height: 10vh;
+  background-color: #d4d4d4;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.strelica {
+  display: flex;
+  justify-content: flex-end;
+  padding: 17px;
+}
+
+.arrow {
+  font-size: 15px;
+  background-color: #5777ba;
+  padding: 17px;
+  border-radius: 50%;
+  color: #ffffff;
+}
+
+.second {
+  font-weight: 400;
+  color: rgb(1, 1, 211);
+}
+
+.icone {
+  right: 40px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 30px;
+}
+
+.twitter {
+  border-radius: 50%;
+  background-color: #eaeaea;
+  padding: 7px;
+}
+
+.facebook {
+  border-radius: 50%;
+  background-color: #eaeaea;
+  padding: 7px;
+}
+.instagram {
+  border-radius: 50%;
+  background-color: #eaeaea;
+  padding: 7px;
+}
+.skype {
+  border-radius: 50%;
+  background-color: #eaeaea;
+  padding: 7px;
+}
+.linkedin {
+  border-radius: 50%;
+  background-color: #eaeaea;
+  padding: 7px;
+}

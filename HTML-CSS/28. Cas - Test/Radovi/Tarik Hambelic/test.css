@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: whitesmoke;
+  height: 10vh;
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.header h1 {
+  color: #5777ba;
+  margin-left: 30px;
+  font-size: 35px;
+}
+.header a {
+  text-decoration: none;
+  opacity: 0.9;
+}
+.header button {
+  height: 35px;
+  width: 100px;
+  border-radius: 20px;
+  background-color: #5777ba;
+  color: white;
+  margin-right: 20px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+  height: 80vh;
+}
+.main img {
+  width: 350px;
+  height: 500px;
+  padding: 30px;
+}
+.main h1 {
+  margin-top: 80px;
+  color: #5777ba;
+}
+.icon {
+  color: #5777ba;
+}
+footer {
+  /* display: flex; */
+  height: 10vh;
+  padding: 20px;
+  background-color: rgb(239, 231, 231);
+}
+.icons2 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 30px;
+  font-size: 15px;
+  /* bottom: 5px; */
+  /* align-content: space-around; */
+  /* align-items: center; */
+}
+footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  /* position: relative; */
+  /* bottom: 20px; */
+}
+.drugi {
+  font-weight: 400;
+  color: blue;
+}
+.tviter {
+  border-radius: 50%;
+  background-color: rgb(201, 184, 184);
+  padding: 7px;
+  /* font-size: 15px; */
+}
+.fejs {
+  border-radius: 50%;
+  background-color: rgb(201, 184, 184);
+  padding: 7px;
+}
+.insta {
+  border-radius: 50%;
+  background-color: rgb(201, 184, 184);
+  padding: 7px;
+}
+.skajp {
+  border-radius: 50%;
+  background-color: rgb(201, 184, 184);
+  padding: 7px;
+}
+.link {
+  border-radius: 50%;
+  background-color: rgb(201, 184, 184);
+  padding: 7px;
+}
+.arrow {
+  display: flex;
+  justify-content: flex-end;
+  padding: 17px;
+  /* background-color: blue; */
+  /* width: 15px; */
+}
+.strela {
+  font-size: 15px;
+  background-color: #5777ba;
+  border-radius: 50%;
+  color: white;
+  padding: 10px;
+}

@@ -1,0 +1,117 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+header {
+  width: 100vw;
+  height: 10vh;
+  margin-bottom: 50px;
+  box-shadow: 1px 1px 9px rgba(132, 132, 132, 0.717);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  color: #5777ba;
+  font-size: 33px;
+  margin-right: 150px;
+}
+.linkovi {
+  display: flex;
+  list-style: none;
+}
+li {
+  padding-right: 30px;
+}
+button {
+  background-color: #5777ba;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 20px;
+  padding: 8px;
+  width: 120px;
+}
+.sadrzaj {
+  width: 80vw;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 350px;
+  height: 350px;
+}
+h1 {
+  width: 550px;
+  padding-bottom: 10px;
+  color: #47536e;
+}
+p {
+  padding: 10px;
+  color: #585a61;
+}
+mark {
+  color: #ffffff;
+  background: #2d8bff;
+}
+.lista {
+  list-style: none;
+  padding: 5px;
+}
+.check {
+  padding: 7px;
+  color: #585a61;
+}
+.fa-check {
+  padding-right: 5px;
+  color: #5777ba;
+}
+a {
+  color: #47536e;
+  text-decoration: none;
+}
+.strelica {
+  background: #5777ba;
+  color: #ffffff;
+  padding: 13px;
+  border-radius: 50%;
+  position: fixed;
+  right: 10px;
+  bottom: 100px;
+  z-index: 20;
+}
+footer {
+  width: 100vw;
+  height: 14vh;
+  background-color: #e6ebfc;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.iz-footera {
+  font-size: 14px;
+  color: #000000;
+  padding-bottom: 0px;
+}
+.iz-footera2 {
+  font-size: 13px;
+  color: #000000;
+  padding-top: 0px;
+}
+.link-iz-footera {
+  color: #2d8bff;
+}
+.ikonice {
+  padding: 10px;
+  background-color: #d1dbfd;
+  border-radius: 50%;
+  color: #47536e;
+  margin-right: 7px;
+}

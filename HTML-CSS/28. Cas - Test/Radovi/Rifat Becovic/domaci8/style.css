@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.6); */
+  box-shadow: 1px 2px 20px 2px rgb(0, 0, 0, 0.13);
+}
+.header h1 {
+  margin-left: 30px;
+  color: #5777ba;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 15px;
+}
+.navbar a {
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+  color: #47536e;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.navbar button {
+  width: 120px;
+  height: 5vh;
+  background-color: #5777ba;
+  border: 1px solid transparent;
+  border-radius: 50px;
+}
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 30px;
+}
+.photo img {
+  display: flex;
+  margin-top: 50px;
+  width: 500px;
+  height: 530px;
+  padding-left: 50px;
+}
+.textabout {
+  margin-top: 50px;
+  padding-right: 50px;
+}
+.textabout h1 {
+  width: 70%;
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #47536e;
+}
+#italic {
+  font-style: italic;
+  color: #585a61;
+}
+#lastp {
+  margin-top: 20px;
+}
+.textabout p {
+  color: #585a61;
+}
+.textabout span {
+  color: #5777ba;
+}
+.footer {
+  width: 100%;
+  height: 12.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgb(189, 186, 186);
+}
+#boldname {
+  color: black;
+  font-weight: bold;
+}
+.footer p {
+  margin-left: 15px;
+  color: #47536e;
+  align-items: center;
+  /* align-self: center; */
+}
+.icons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: center;
+  align-items: center;
+  position: relative;
+  right: 20px;
+}
+.mediaapp {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(66, 66, 66);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+.mediaapp a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: #5777ba;
+  margin-top: 460px;
+  margin-left: 1450px;
+  position: fixed;
+}
