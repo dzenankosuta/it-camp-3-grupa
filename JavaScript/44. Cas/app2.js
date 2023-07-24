@@ -57,6 +57,14 @@ console.log(myCar.trenutnaBrzina);
 console.log(myCar.smanjenjeBrzine(20));
 console.log(myCar.trenutnaBrzina);
 
+myCar.koci = function () {
+  this.trenutnaBrzina = 0;
+  return "Ukocili ste.";
+};
+
+myCar.koci();
+console.log(myCar.trenutnaBrzina);
+
 // Domaci:
 // Napraviti objekat sa sledecim svojstvima:
 // 1. firstName,
